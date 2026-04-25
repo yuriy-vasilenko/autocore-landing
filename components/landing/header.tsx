@@ -56,9 +56,8 @@ export function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-[4.6rem]">
           <a href="#top" onClick={handleSectionClick("#top")} className="flex items-center gap-2 group">
-            <span className="text-[1.14rem] lg:text-[1.38rem] font-semibold tracking-[-0.032em]">
-              <span className="text-[#F5F1E8]">Auto</span>
-              <span className="gold-gradient-text transition-opacity duration-300 group-hover:opacity-90">Core</span>
+            <span className="text-[0.86rem] sm:text-[0.9rem] lg:text-[1.02rem] font-semibold tracking-[0.06em] uppercase text-[#F5F1E8D9] transition-opacity duration-300 group-hover:opacity-90">
+              Автоматизация в дело
             </span>
           </a>
 

@@ -6,7 +6,7 @@ import { X, Check, Copy, AlertCircle, RefreshCw, Zap, FileCheck, Sparkles, Clock
 import { SectionTitle } from "@/components/landing/section-title"
 
 const beforeItems = [
-  { icon: Copy, text: "Копирование данных вручную" },
+  { icon: Copy, text: "Копирование данных без автоматизации" },
   { icon: AlertCircle, text: "Хаос в файлах" },
   { icon: Clock, text: "Ошибки в формулах" },
   { icon: RefreshCw, text: "Постоянные проверки" },
@@ -33,7 +33,7 @@ export function BeforeAfter() {
         <div ref={ref} className="text-center max-w-3xl mx-auto mb-11 lg:mb-14">
           <SectionTitle
             title="До и после автоматизации"
-            description="Переход от ручной рутины к предсказуемому процессу с понятной логикой и стабильным результатом."
+            description="Переход от несистемной рутины к предсказуемому процессу с понятной логикой и стабильным результатом."
           />
         </div>
 
@@ -49,7 +49,7 @@ export function BeforeAfter() {
                   <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#6b3a1a40]">
                     <X className="h-3.5 w-3.5 text-[#a05a2f]" />
                   </div>
-                  <h3 className="text-[18px] font-semibold leading-[1.2] tracking-[-0.02em] text-[#F5F1E8]">Ручной процесс</h3>
+                  <h3 className="text-[18px] font-semibold leading-[1.2] tracking-[-0.02em] text-[#F5F1E8]">Процесс без автоматизации</h3>
                 </div>
                 <div className="space-y-2">
                   {beforeItems.map((item, index) => (

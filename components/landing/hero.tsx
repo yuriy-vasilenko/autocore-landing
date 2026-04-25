@@ -83,7 +83,7 @@ export function Hero() {
         <div className="max-w-4xl mx-auto text-center">
           <motion.div {...fadeUp} transition={{ duration: 0.55, delay: 0.1 }}>
             <h1 className="text-balance text-[2.08rem] sm:text-[2.86rem] lg:text-[3.75rem] xl:text-[4.24rem] font-semibold leading-[1.03] tracking-[-0.038em]">
-              <span className="text-[#F5F1E8]">Автоматизируем рутину, отчёты и данные</span>
+              <span className="text-[#F5F1E8]">Автоматизируем рутину, отчёты и данные </span>
               <br className="hidden sm:block" />
               <span className="text-[#F5F1E8]">чтобы </span>
               <span className="gold-gradient-text">бизнес работал быстрее и точнее</span>

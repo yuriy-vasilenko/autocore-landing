@@ -10,7 +10,7 @@ const manrope = Manrope({
 })
 
 export const metadata: Metadata = {
-  title: 'AutoCore — Премиальная автоматизация бизнес-процессов',
+  title: 'Автоматизация в дело — Премиальная автоматизация бизнес-процессов',
   description: 'Excel, VBA, Python, отчёты, документы, заявки, прайсы, Telegram-уведомления, аналитика и внутренние инструменты — под реальные задачи бизнеса.',
   generator: 'v0.app',
   icons: {

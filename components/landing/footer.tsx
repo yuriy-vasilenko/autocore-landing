@@ -1,6 +1,7 @@
 "use client"
 
 import { Send, Mail } from "lucide-react"
+import Image from "next/image"
 
 const footerLinks = [
   { label: "Услуги", href: "#services" },
@@ -29,10 +30,16 @@ export function Footer() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid gap-8 lg:grid-cols-3 lg:gap-6">
           <div>
-            <a href="#top" onClick={handleSectionClick("#top")} className="inline-block group">
-              <span className="text-[1.14rem] lg:text-[1.38rem] font-semibold leading-none tracking-[-0.032em]">
-                <span className="text-[#F5F1E8]">Auto</span>
-                <span className="gold-gradient-text transition-opacity duration-300 group-hover:opacity-90">Core</span>
+            <a href="#top" onClick={handleSectionClick("#top")} className="inline-flex items-center gap-2.5 group">
+              <Image
+                src="/brand-logo.png"
+                alt="Автоматизация в дело"
+                width={156}
+                height={44}
+                className="h-8 w-auto"
+              />
+              <span className="text-[0.82rem] font-semibold tracking-[0.08em] uppercase text-[#F5F1E8D9] transition-opacity duration-300 group-hover:opacity-90">
+                Автоматизация в дело
               </span>
             </a>
             <p className="mt-2.5 max-w-xs text-[14px] leading-[1.55] tracking-[-0.006em] text-[#F5F1E8B8]">
@@ -85,7 +92,7 @@ export function Footer() {
 
         <div className="mt-8 border-t border-[#d4af3720] pt-5">
           <p className="text-center text-[11px] tracking-[0.04em] text-[#F5F1E899]">
-            {new Date().getFullYear()} AutoCore
+            {new Date().getFullYear()} Автоматизация в дело
           </p>
         </div>
       </div>

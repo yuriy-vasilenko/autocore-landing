@@ -8,7 +8,7 @@ import { SectionTitle } from "@/components/landing/section-title"
 const results = [
   {
     icon: Clock,
-    title: "Меньше ручной работы",
+    title: "Меньше операционной нагрузки",
     description: "Повторяющиеся действия выполняются по заданной логике.",
   },
   {
