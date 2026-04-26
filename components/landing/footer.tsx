@@ -1,7 +1,6 @@
 "use client"
 
 import { Send, Mail } from "lucide-react"
-import Image from "next/image"
 
 const footerLinks = [
   { label: "Услуги", href: "#services" },
@@ -28,25 +27,7 @@ export function Footer() {
   return (
     <footer className="premium-tone-footer border-t border-[#d4af3726] py-10 lg:py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid gap-8 lg:grid-cols-3 lg:gap-6">
-          <div>
-            <a href="#top" onClick={handleSectionClick("#top")} className="inline-flex items-center gap-2.5 group">
-              <Image
-                src="/brand-logo.png"
-                alt="Автоматизация в дело"
-                width={156}
-                height={44}
-                className="h-8 w-auto"
-              />
-              <span className="text-[0.82rem] font-semibold tracking-[0.08em] uppercase text-[#F5F1E8D9] transition-opacity duration-300 group-hover:opacity-90">
-                Автоматизация в дело
-              </span>
-            </a>
-            <p className="mt-2.5 max-w-xs text-[14px] leading-[1.55] tracking-[-0.006em] text-[#F5F1E8B8]">
-              Автоматизация бизнес-процессов под реальные задачи компании.
-            </p>
-          </div>
-
+        <div className="grid gap-8 lg:grid-cols-2 lg:gap-6">
           <div>
             <h4 className="mb-3 text-[11px] font-medium uppercase tracking-[0.16em] text-[#d4af37b8]">
               Навигация
